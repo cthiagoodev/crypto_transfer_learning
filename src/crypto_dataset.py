@@ -6,7 +6,7 @@ from requests import Response
 
 class CryptoDataset:
     url: str
-    save_path = "./datasets"
+    save_path = "../datasets"
     files_path: list[str] = []
 
     def __init__(self, url: str):
